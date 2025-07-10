@@ -2,6 +2,8 @@
 // Created by himan on 10-07-2025.
 //
 
+/*HIMANSHU KUMAR*/
+
 #ifndef GENERICRUBIKSCUBE_H
 #define GENERICRUBIKSCUBE_H
 
@@ -46,7 +48,7 @@ class RubiksCube {
      *           Y Y Y
      */
 
-    virtual COLORS getColor(FACES face, int row, int col ) = 0;
+    virtual COLORS getColor(FACES face, int row, int col ) const = 0;
 
     static char getColorLetter(COLORS color);
 
