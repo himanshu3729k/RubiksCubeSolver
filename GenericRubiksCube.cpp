@@ -5,8 +5,8 @@
 #include "GenericRubiksCube.h"
 
 
-char RubiksCube::getColorLetter(COLORS color) {
-    switch (color) {
+char RubiksCube::getColorLetter(COLORS Col) {
+    switch (Col) {
         case COLORS::BLUE:    return 'B';
         case COLORS::GREEN:   return 'G';
         case COLORS::RED:     return 'R';
